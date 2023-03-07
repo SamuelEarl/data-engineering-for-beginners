@@ -1,6 +1,6 @@
 # Install & Run Dagster
 
-Since this is just for educational purposes, I am going to keep this simple by using a virtual environment (instead of a Docker container) for Dagster.
+We are going to install Dagster using a virtual environment.
 
 <br>
 
