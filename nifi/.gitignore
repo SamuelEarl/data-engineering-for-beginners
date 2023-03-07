@@ -1,7 +1,0 @@
-# See "How to .gitignore all files/folder in a folder, but not the folder itself?": https://stackoverflow.com/a/5581995
-
-# Ignore all files in this folder...
-*
-
-# ...except for this `.gitignore` file, which will cause the `nifi` directory to be included in the repo.
-!.gitignore

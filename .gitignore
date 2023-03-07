@@ -1,3 +1,2 @@
-# Ignore everything in the `nifi` directory.
-/nifi/*
-/airflow/*
+# Ignore everything in the `old-stuff` directory.
+/old-stuff/*

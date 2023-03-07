@@ -14,7 +14,7 @@ I am going to use Anaconda with the Conda package manager to create and manage m
 
 <br>
 
-### Step 2: Create an `environment.yml` file in your project root directory
+## Step 2: Create an `environment.yml` file in your project root directory
 
 You can create and activate virtual environments with conda. (See [Managing environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).)
 
@@ -107,6 +107,9 @@ conda env list
 
 # Install & Run Postgres & pgAdmin
 
+NOTE: Maybe I should use [ElephantSQL](https://www.elephantsql.com) instead of trying to set up a local Docker instance of Postgres.
+
+
 Tutorial: [Run PostgreSQL and pgAdmin in docker for local development using docker compose](https://belowthemalt.com/2021/06/09/run-postgresql-and-pgadmin-in-docker-for-local-development-using-docker-compose/). See also [Running Postgres and pgAdmin with Docker Compose](https://www.pintonista.com/running-postgres-and-pgadmin-with-docker-compose/).
 
 Start the containers: `make postgres-start`
@@ -142,6 +145,12 @@ Click the "Save" button.
 3. Enter the password for the database user (the `POSTGRES_PASSWORD` value): `admin`
 4. You can select the checkbox for "Save Password".
 5. Click "OK".
+
+---
+
+# Neo4j
+
+Use the free tier of AuraDB.
 
 ---
 
